@@ -12,7 +12,8 @@
   "logging": {
     "logLevel": {
       "DurableTask.SqlServer": "Information",
-      "DurableTask.Core": "Warning"
+      "DurableTask.Core": "Warning",
+	  "Function": "Information"
     }
   }
 }
