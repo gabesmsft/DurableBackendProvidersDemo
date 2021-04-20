@@ -1,3 +1,18 @@
 {
-    "version": "2.0"
+  "version": "2.0",
+  "extensions": {
+    "durableTask": {
+      "storageProvider": {
+        "type":  "mssql",
+        "connectionStringName": "SQLDB_Connection",
+        "taskEventLockTimeout": "00:02:00"
+      }
+    }
+  },
+  "logging": {
+    "logLevel": {
+      "DurableTask.SqlServer": "Information",
+      "DurableTask.Core": "Warning"
+    }
+  }
 }
