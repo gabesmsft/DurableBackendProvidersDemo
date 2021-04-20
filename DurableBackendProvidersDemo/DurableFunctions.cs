@@ -69,7 +69,7 @@ namespace DevbootcampDurableChaining
         [FunctionName("ActivityFunction3")]
         public static string ActivityFunction3([ActivityTrigger] string InputFromAF2Output, ILogger log)
         {
-            return InputFromAF2Output + $"Output2";
+            return InputFromAF2Output + $"Output3";
         }
     }
 }
