@@ -13,7 +13,8 @@
   "logging": {
     "logLevel": {
       "DurableTask.Netherite": "Information",
-      "DurableTask.Core": "Warning"
+      "DurableTask.Core": "Warning",
+	  "Function": "Information"
     }
   }
 }
